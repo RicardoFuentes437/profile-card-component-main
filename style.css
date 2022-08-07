@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 html {
   width: 100%;
   height: 100%;
@@ -5,7 +6,9 @@ html {
 html body {
   width: 100%;
   height: 100%;
+  background-color: hsl(185deg, 75%, 39%);
   background-image: url("images/bg-pattern-top.svg");
+  font-family: "Kumbh Sans";
 }
 html body main {
   width: 100%;
@@ -15,26 +18,53 @@ html body main {
   justify-content: center;
 }
 html body main .card {
-  width: 500px;
+  width: 400px;
   height: 400px;
   background-color: white;
   text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
 }
 html body main .card .bg-pattern-card {
   width: 100%;
-  height: 40%;
+  height: 35%;
 }
 html body main .card .image-victor {
   position: relative;
-  top: -45px;
+  top: -50px;
+  align-self: center;
+  border: 4px solid white;
   border-radius: 50%;
+  width: 110px;
 }
 html body main .card .bottom-section {
   position: relative;
   top: -45px;
+  padding: 5px;
 }
 html body main .card .bottom-section .stats {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-top: 20px;
+  line-height: 0.6cm;
+}
+html body main .card .bottom-section .main-text {
+  font-size: 18px;
+  font-weight: 700;
+}
+html body main .card .bottom-section .secondary-text {
+  color: hsl(0deg, 0%, 59%);
+  font-size: 16px;
+  line-height: 0.3cm;
+}
+html body main .card .bottom-section .stats-text {
+  color: hsl(0deg, 0%, 59%);
+  font-weight: 400;
+  font-size: 15px;
+}
+@media (max-width: 420px) {
+  html body main .card {
+    width: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */
