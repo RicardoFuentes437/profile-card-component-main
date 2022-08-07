@@ -1,0 +1,40 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/bg-pattern-top.svg");
+}
+html body main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body main .card {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  text-align: center;
+}
+html body main .card .bg-pattern-card {
+  width: 100%;
+  height: 40%;
+}
+html body main .card .image-victor {
+  position: relative;
+  top: -45px;
+  border-radius: 50%;
+}
+html body main .card .bottom-section {
+  position: relative;
+  top: -45px;
+}
+html body main .card .bottom-section .stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */
