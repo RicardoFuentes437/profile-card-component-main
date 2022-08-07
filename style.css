@@ -18,8 +18,8 @@ html body main {
   justify-content: center;
 }
 html body main .card {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   background-color: white;
   text-align: center;
   border-radius: 10px;
